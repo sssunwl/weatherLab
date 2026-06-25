@@ -117,7 +117,6 @@ def get_sheet_client_oauth():
                 "https://www.googleapis.com/auth/spreadsheets",
                 "https://www.googleapis.com/auth/drive",
             ],
-            reauthorize_if_refresh_fails=True,
         )
         return gc
     except Exception as e:
