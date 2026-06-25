@@ -39,10 +39,9 @@ def fetch_weather_forecast(lat: float, lon: float) -> Dict:
     params = {
         "latitude": lat,
         "longitude": lon,
-        "temperature_2m": "true",
-        "models": "ecmwf_ifs025,icon_seamless,gfs025",
+        "hourly": "temperature_2m",
+        "models": ["ecmwf_ifs025", "icon_seamless", "gfs_seamless"],
         "forecast_days": 2,
-        "timezone": "UTC",
     }
 
     try:
@@ -66,9 +65,10 @@ def extract_temps(forecast_data: Dict, forecast_days: int = 2) -> List[Dict]:
     temps_by_model = {}
 
     # Parse hourly data grouped by model
+    # Format: temperature_2m_ecmwf_ifs025, temperature_2m_icon_seamless, temperature_2m_gfs025
     for key in hourly.keys():
-        if "_temperature_2m" in key:
-            model_name = key.split("_temperature_2m")[0]
+        if key.startswith("temperature_2m_"):
+            model_name = key.replace("temperature_2m_", "")
             temps_by_model[model_name] = hourly[key]
 
     if not temps_by_model:
@@ -79,14 +79,15 @@ def extract_temps(forecast_data: Dict, forecast_days: int = 2) -> List[Dict]:
     time_data = hourly.get("time", [])
 
     for day_offset in range(forecast_days):
-        if day_offset >= len(time_data):
+        hour_index = day_offset * 24
+        if hour_index >= len(time_data):
             break
 
-        day_str = time_data[day_offset][:10]  # YYYY-MM-DD
+        day_str = time_data[hour_index][:10]  # YYYY-MM-DD
         day_temps = {}
 
         for model_name, temps in temps_by_model.items():
-            day_range = temps[day_offset * 24:(day_offset + 1) * 24]
+            day_range = [t for t in temps[day_offset * 24:(day_offset + 1) * 24] if t is not None]
             if day_range:
                 high = max(day_range)
                 low = min(day_range)
@@ -171,10 +172,10 @@ def format_sheet_row(city: str, snapshot_time: str, forecast_data: Dict) -> Opti
         city,
         forecast_temps.get("ecmwf_ifs025_high", ""),
         forecast_temps.get("icon_seamless_high", ""),
-        forecast_temps.get("gfs025_high", ""),
+        forecast_temps.get("gfs_seamless_high", ""),
         forecast_temps.get("ecmwf_ifs025_low", ""),
         forecast_temps.get("icon_seamless_low", ""),
-        forecast_temps.get("gfs025_low", ""),
+        forecast_temps.get("gfs_seamless_low", ""),
         "",  # actual_high (to be filled later)
         "",  # actual_low (to be filled later)
     ]
