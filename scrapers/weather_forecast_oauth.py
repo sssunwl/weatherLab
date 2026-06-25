@@ -139,7 +139,9 @@ def append_to_sheet(client: gspread.Client, data_rows: List[List]):
         return True
 
     except Exception as e:
-        print(f"Error appending to sheet: {e}")
+        import traceback
+        print(f"Error appending to sheet: {type(e).__name__}: {e}")
+        traceback.print_exc()
         return False
 
 
