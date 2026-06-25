@@ -1,0 +1,41 @@
+name: WeatherLab Scraper
+
+on:
+  schedule:
+    # 07:00 JST = 22:00 UTC previous day
+    - cron: '0 22 * * *'
+    # 19:00 JST = 10:00 UTC
+    - cron: '0 10 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests gspread
+
+      - name: Run scraper
+        env:
+          GOOGLE_SHEETS_CREDS: ${{ secrets.GOOGLE_SHEETS_CREDS }}
+        run: python scrapers/weather_forecast.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A || true
+          git commit -m "chore: weather scraper auto-run $(date +'%Y-%m-%d %H:%M JST')" || true
+          git push || true
