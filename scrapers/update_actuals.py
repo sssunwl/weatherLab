@@ -85,7 +85,7 @@ def main():
     worksheet = sheet.worksheet(SHEET_NAME)
     rows = worksheet.get_all_values()
 
-    today = datetime.utcnow().date()
+    today = (datetime.utcnow() + timedelta(hours=9)).date()  # JST
     updates = []  # list of (row_number, col_number, value)
 
     print(f"Scanning {len(rows) - 1} rows for missing actuals...")
