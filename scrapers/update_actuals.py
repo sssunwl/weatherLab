@@ -53,8 +53,8 @@ def fetch_actual_temps(lat: float, lon: float, date_str: str) -> Optional[Dict]:
             return None
 
         return {
-            "high": round(max(temps), 1),
-            "low": round(min(temps), 1),
+            "high": round(max(temps)),
+            "low": round(min(temps)),
         }
     except Exception as e:
         print(f"Error fetching actuals for {date_str}: {e}")

@@ -91,8 +91,8 @@ def extract_temps(forecast_data: Dict, forecast_days: int = 2) -> List[Dict]:
             if day_range:
                 high = max(day_range)
                 low = min(day_range)
-                day_temps[f"{model_name}_high"] = round(high, 1)
-                day_temps[f"{model_name}_low"] = round(low, 1)
+                day_temps[f"{model_name}_high"] = round(high)
+                day_temps[f"{model_name}_low"] = round(low)
 
         if day_temps:
             day_temps["date"] = day_str
