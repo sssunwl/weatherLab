@@ -1,0 +1,11 @@
+# cron 執行紀錄（本機留痕，不進版控）
+cron.log
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
