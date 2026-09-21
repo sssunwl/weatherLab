@@ -52,8 +52,10 @@ v1 不是「模型不準」,是**在量錯的東西**:預測的地點、時段�
 
 **原則:每天只看一次、一則訊息看完;想深入再點進儀表板。** 不要每天打開 Google Sheet 自己比。
 
-### A. Telegram 每日一則(主要入口)
-GitHub Actions 每天跑完後推一則到 TG(沿用 Syun / AINewsSuni 的 bot 做法,token 放 GitHub Secrets):
+### A. Discord 每日一則(主要入口)
+GitHub Actions 每天跑完後推一則到 Discord 頻道 **#n-weather**(Webhook,不用開 bot;SS 2026-09-22 從 TG 改成 Discord):
+- Webhook 網址存在 GitHub Secret `DISCORD_WEBHOOK_URL`,本機備份在 `~/.config/weatherlab/discord_webhook`。**絕不寫進 repo 或前端**(public repo,網址外流任何人都能往頻道發訊息)。
+- 發送共用 `scrapers/notify_discord.py`(單則上限 2000 字,超過自動切)。表格內容包在 ``` 裡才會對齊。
 
 ```
 🌡 weatherLab 9/22
@@ -79,10 +81,10 @@ GitHub Actions 每天跑完後推一則到 TG(沿用 Syun / AINewsSuni 的 bot �
 
 ### 部署分兩步(SS 2026-09-22 定案)
 
-**第一步(現在做):GitHub Pages + Telegram**
-- GitHub Actions 排程跑預測 → 結果寫成 `data/*.json` commit 進 repo → 同一條 workflow 推 TG 訊息。
-- 儀表板是 repo 裡的純靜態頁(例如 `docs/index.html` 讀 `../data/*.json`,或 build 時複製進 `docs/`),GitHub Pages 發佈 → `https://sssunwl.github.io/weatherLab/`。
-- TG bot token、chat id 一律放 **GitHub Secrets**,絕不寫進 repo 或前端。
+**第一步(現在做):GitHub Pages + Discord**
+- GitHub Actions 排程跑預測 → 結果寫成 `data/*.json` commit 進 repo → 同一條 workflow 推 Discord(#n-weather)。
+- 儀表板是 repo 根目錄的純靜態頁 `index.html`,讀同層 `data/*.json`。Pages 已開(2026-09-22,來源 = `main` 分支根目錄)→ `https://sssunwl.github.io/weatherLab/`。根目錄還沒有 index.html 前,網址顯示的是 README。
+- Discord webhook 一律放 **GitHub Secrets**,絕不寫進 repo 或前端。
 - 注意:免費帳號的 GitHub Pages 要 repo 保持 **public**,所以這階段機率、模擬單、策略門檻**任何人都看得到**。可接受的前提是還在紙上交易;頁面加 `noindex`。
 
 **第二步(驗證有 edge 之後):`weather.sssuni.com`**
@@ -91,4 +93,4 @@ GitHub Actions 每天跑完後推一則到 TG(沿用 Syun / AINewsSuni 的 bot �
 - 私人控制台快捷入口加一格連過去。
 
 ### 什麼時候可以考慮真錢
-儀表板上兩個條件同時成立至少 30 個結算日:校準圖大致貼著對角線,且 Brier score 穩定低於市價。未達成前 TG 訊息只標 [模擬單]。
+儀表板上兩個條件同時成立至少 30 個結算日:校準圖大致貼著對角線,且 Brier score 穩定低於市價。未達成前 Discord 訊息只標 [模擬單]。
