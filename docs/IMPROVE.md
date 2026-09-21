@@ -77,7 +77,18 @@ GitHub Actions 每天跑完後推一則到 TG(沿用 Syun / AINewsSuni 的 bot �
 3. **校準圖**:我們說 30% 的格子,實際有沒有大約 30% 會中(這張圖決定能不能用真錢)。
 4. **紙上交易累計曲線**:跟「照市價買」比較。
 
-部署:Actions 把結果寫成 `data/*.json` → 靜態頁讀它。**weatherLab repo 目前是 public**,策略跟模擬單不想被看到的話:repo 轉 private,頁面放 Cloudflare(如 `weather.sssuni.com`)加 Cloudflare Access,跟 okiblues 儀表板同一套做法;控制台快捷入口加一格連過去。
+### 部署分兩步(SS 2026-09-22 定案)
+
+**第一步(現在做):GitHub Pages + Telegram**
+- GitHub Actions 排程跑預測 → 結果寫成 `data/*.json` commit 進 repo → 同一條 workflow 推 TG 訊息。
+- 儀表板是 repo 裡的純靜態頁(例如 `docs/index.html` 讀 `../data/*.json`,或 build 時複製進 `docs/`),GitHub Pages 發佈 → `https://sssunwl.github.io/weatherLab/`。
+- TG bot token、chat id 一律放 **GitHub Secrets**,絕不寫進 repo 或前端。
+- 注意:免費帳號的 GitHub Pages 要 repo 保持 **public**,所以這階段機率、模擬單、策略門檻**任何人都看得到**。可接受的前提是還在紙上交易;頁面加 `noindex`。
+
+**第二步(驗證有 edge 之後):`weather.sssuni.com`**
+- repo 轉 private,頁面搬到 Cloudflare(Workers 靜態資產,跟 Suniverse / okiblues 同一套),加 Cloudflare Access(Email 驗證碼)。
+- 資料路徑維持 `data/*.json` 不變,搬家時前端不用改。
+- 私人控制台快捷入口加一格連過去。
 
 ### 什麼時候可以考慮真錢
 儀表板上兩個條件同時成立至少 30 個結算日:校準圖大致貼著對角線,且 Brier score 穩定低於市價。未達成前 TG 訊息只標 [模擬單]。
