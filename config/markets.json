@@ -1,0 +1,58 @@
+[
+  {
+    "key": "nyc",
+    "name": "紐約 LGA",
+    "enabled": true,
+    "slug_city": "nyc",
+    "station": "KLGA",
+    "iem_station": "LGA",
+    "lat": 40.7794,
+    "lon": -73.8803,
+    "tz": "America/New_York",
+    "unit": "F",
+    "settle_rule": "round",
+    "kernel_sigma": 1.0
+  },
+  {
+    "key": "london",
+    "name": "倫敦 LCY",
+    "enabled": true,
+    "slug_city": "london",
+    "station": "EGLC",
+    "iem_station": "EGLC",
+    "lat": 51.5053,
+    "lon": 0.0553,
+    "tz": "Europe/London",
+    "unit": "C",
+    "settle_rule": "round",
+    "kernel_sigma": 0.6
+  },
+  {
+    "key": "hong-kong",
+    "name": "香港 天文台",
+    "enabled": true,
+    "slug_city": "hong-kong",
+    "station": "HKO",
+    "iem_station": null,
+    "lat": 22.3019,
+    "lon": 114.1742,
+    "tz": "Asia/Hong_Kong",
+    "unit": "C",
+    "settle_rule": "floor",
+    "kernel_sigma": 0.6
+  },
+  {
+    "key": "miami",
+    "name": "邁阿密 MIA",
+    "enabled": false,
+    "slug_city": "miami",
+    "station": "KMIA",
+    "iem_station": "MIA",
+    "lat": 25.7881,
+    "lon": -80.3169,
+    "tz": "America/New_York",
+    "unit": "F",
+    "settle_rule": "round",
+    "kernel_sigma": 1.0
+  }
+]
