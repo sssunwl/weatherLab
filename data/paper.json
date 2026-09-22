@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5b17049d8140e326",
+    "market": "nyc",
+    "target_date": "2026-09-24",
+    "bucket": "64-65°F",
+    "p": 0.42335784514970665,
+    "best_ask": 0.19,
+    "edge": 0.23335784514970664,
+    "shares": 52.63157894736842,
+    "placed_at": "2026-09-22T22:21:59.794348Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "b965b6f3b8a3a77a",
+    "market": "london",
+    "target_date": "2026-09-23",
+    "bucket": "23°C",
+    "p": 0.3799649550441575,
+    "best_ask": 0.2,
+    "edge": 0.1799649550441575,
+    "shares": 50.0,
+    "placed_at": "2026-09-22T22:21:59.794348Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "a9d645142e97f783",
+    "market": "london",
+    "target_date": "2026-09-24",
+    "bucket": "21°C",
+    "p": 0.26546836329140605,
+    "best_ask": 0.15,
+    "edge": 0.11546836329140606,
+    "shares": 66.66666666666667,
+    "placed_at": "2026-09-22T22:21:59.794348Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "7203f9b790473dbc",
+    "market": "hong-kong",
+    "target_date": "2026-09-24",
+    "bucket": "30°C",
+    "p": 0.5077766620813288,
+    "best_ask": 0.27,
+    "edge": 0.23777666208132875,
+    "shares": 37.03703703703704,
+    "placed_at": "2026-09-22T22:21:59.794348Z",
+    "status": "open",
+    "pnl": null
+  }
+]

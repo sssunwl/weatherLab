@@ -1,0 +1,933 @@
+{
+  "generated_at": "2026-09-22T22:21:59.794348Z",
+  "snapshots": [
+    {
+      "snapshot_at": "2026-09-22T22:21:59.794348Z",
+      "market": "nyc",
+      "market_name": "紐約 LGA",
+      "target_date": "2026-09-22",
+      "tz": "America/New_York",
+      "unit": "F",
+      "bias": 0.5949999999999986,
+      "n_members": 82,
+      "mean": 65.68548780487805,
+      "p10": 64.01499999999999,
+      "p50": 65.455,
+      "p90": 67.49499999999999,
+      "buckets": [
+        {
+          "label": "55°F or below",
+          "lo": null,
+          "hi": 55,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 5.551115123125783e-17
+        },
+        {
+          "label": "56-57°F",
+          "lo": 56,
+          "hi": 57,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 7.071312438039625e-11
+        },
+        {
+          "label": "58-59°F",
+          "lo": 58,
+          "hi": 59,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 2.093983302556347e-06
+        },
+        {
+          "label": "60-61°F",
+          "lo": 60,
+          "hi": 61,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.0018900902826576237
+        },
+        {
+          "label": "62-63°F",
+          "lo": 62,
+          "hi": 63,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.08550492338938123
+        },
+        {
+          "label": "64-65°F",
+          "lo": 64,
+          "hi": 65,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.3931015675974185
+        },
+        {
+          "label": "66-67°F",
+          "lo": 66,
+          "hi": 67,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.37380338432584764
+        },
+        {
+          "label": "68-69°F",
+          "lo": 68,
+          "hi": 69,
+          "mid": 0.9995,
+          "best_bid": 0.999,
+          "best_ask": null,
+          "p": 0.1293423075963501
+        },
+        {
+          "label": "70-71°F",
+          "lo": 70,
+          "hi": 71,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.01592591714344965
+        },
+        {
+          "label": "72-73°F",
+          "lo": 72,
+          "hi": 73,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.00042909402132180997
+        },
+        {
+          "label": "74°F or higher",
+          "lo": 74,
+          "hi": null,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 6.215895578619866e-07
+        }
+      ]
+    },
+    {
+      "snapshot_at": "2026-09-22T22:21:59.794348Z",
+      "market": "nyc",
+      "market_name": "紐約 LGA",
+      "target_date": "2026-09-23",
+      "tz": "America/New_York",
+      "unit": "F",
+      "bias": 0.5949999999999986,
+      "n_members": 82,
+      "mean": 65.91597560975609,
+      "p10": 64.41499999999999,
+      "p50": 65.605,
+      "p90": 67.805,
+      "buckets": [
+        {
+          "label": "57°F or below",
+          "lo": null,
+          "hi": 57,
+          "mid": 0.0015,
+          "best_bid": null,
+          "best_ask": 0.003,
+          "p": 4.3503990383008955e-11
+        },
+        {
+          "label": "58-59°F",
+          "lo": 58,
+          "hi": 59,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 1.1615511275645177e-06
+        },
+        {
+          "label": "60-61°F",
+          "lo": 60,
+          "hi": 61,
+          "mid": 0.0025,
+          "best_bid": null,
+          "best_ask": 0.005,
+          "p": 0.001020053598818994
+        },
+        {
+          "label": "62-63°F",
+          "lo": 62,
+          "hi": 63,
+          "mid": 0.004,
+          "best_bid": null,
+          "best_ask": 0.008,
+          "p": 0.05894758896467169
+        },
+        {
+          "label": "64-65°F",
+          "lo": 64,
+          "hi": 65,
+          "mid": 0.035,
+          "best_bid": 0.02,
+          "best_ask": 0.05,
+          "p": 0.37078759479222445
+        },
+        {
+          "label": "66-67°F",
+          "lo": 66,
+          "hi": 67,
+          "mid": 0.525,
+          "best_bid": 0.51,
+          "best_ask": 0.54,
+          "p": 0.38870278830952537
+        },
+        {
+          "label": "68-69°F",
+          "lo": 68,
+          "hi": 69,
+          "mid": 0.395,
+          "best_bid": 0.36,
+          "best_ask": 0.4,
+          "p": 0.16165119542629328
+        },
+        {
+          "label": "70-71°F",
+          "lo": 70,
+          "hi": 71,
+          "mid": 0.085,
+          "best_bid": 0.07,
+          "best_ask": 0.1,
+          "p": 0.018703228642438827
+        },
+        {
+          "label": "72-73°F",
+          "lo": 72,
+          "hi": 73,
+          "mid": 0.007,
+          "best_bid": 0.004,
+          "best_ask": 0.01,
+          "p": 0.00018631314095304084
+        },
+        {
+          "label": "74-75°F",
+          "lo": 74,
+          "hi": 75,
+          "mid": 0.002,
+          "best_bid": 0.001,
+          "best_ask": 0.003,
+          "p": 7.552965748094062e-08
+        },
+        {
+          "label": "76°F or higher",
+          "lo": 76,
+          "hi": null,
+          "mid": 0.0015,
+          "best_bid": null,
+          "best_ask": 0.003,
+          "p": 7.856059975994213e-13
+        }
+      ]
+    },
+    {
+      "snapshot_at": "2026-09-22T22:21:59.794348Z",
+      "market": "nyc",
+      "market_name": "紐約 LGA",
+      "target_date": "2026-09-24",
+      "tz": "America/New_York",
+      "unit": "F",
+      "bias": 0.5949999999999986,
+      "n_members": 82,
+      "mean": 65.52085365853658,
+      "p10": 63.82500000000001,
+      "p50": 65.205,
+      "p90": 67.605,
+      "buckets": [
+        {
+          "label": "57°F or below",
+          "lo": null,
+          "hi": 57,
+          "mid": 0.01,
+          "best_bid": null,
+          "best_ask": 0.02,
+          "p": 3.4172963320877333e-09
+        },
+        {
+          "label": "58-59°F",
+          "lo": 58,
+          "hi": 59,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 2.4182438122941006e-05
+        },
+        {
+          "label": "60-61°F",
+          "lo": 60,
+          "hi": 61,
+          "mid": 0.01,
+          "best_bid": null,
+          "best_ask": 0.02,
+          "p": 0.0057005786349404435
+        },
+        {
+          "label": "62-63°F",
+          "lo": 62,
+          "hi": 63,
+          "mid": 0.01,
+          "best_bid": null,
+          "best_ask": 0.02,
+          "p": 0.11485097226351745
+        },
+        {
+          "label": "64-65°F",
+          "lo": 64,
+          "hi": 65,
+          "mid": 0.175,
+          "best_bid": 0.16,
+          "best_ask": 0.19,
+          "p": 0.42335784514970665
+        },
+        {
+          "label": "66-67°F",
+          "lo": 66,
+          "hi": 67,
+          "mid": 0.445,
+          "best_bid": 0.43,
+          "best_ask": 0.46,
+          "p": 0.31429101457531133
+        },
+        {
+          "label": "68-69°F",
+          "lo": 68,
+          "hi": 69,
+          "mid": 0.36,
+          "best_bid": 0.34,
+          "best_ask": 0.38,
+          "p": 0.10652883287722874
+        },
+        {
+          "label": "70-71°F",
+          "lo": 70,
+          "hi": 71,
+          "mid": 0.05,
+          "best_bid": 0.04,
+          "best_ask": 0.07,
+          "p": 0.031861194949073204
+        },
+        {
+          "label": "72-73°F",
+          "lo": 72,
+          "hi": 73,
+          "mid": 0.01,
+          "best_bid": null,
+          "best_ask": 0.02,
+          "p": 0.003362496941883611
+        },
+        {
+          "label": "74-75°F",
+          "lo": 74,
+          "hi": 75,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 2.2874437524365616e-05
+        },
+        {
+          "label": "76°F or higher",
+          "lo": 76,
+          "hi": null,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 4.31539513337723e-09
+        }
+      ]
+    },
+    {
+      "snapshot_at": "2026-09-22T22:21:59.794348Z",
+      "market": "london",
+      "market_name": "倫敦 LCY",
+      "target_date": "2026-09-22",
+      "tz": "Europe/London",
+      "unit": "C",
+      "bias": 0.0,
+      "n_members": 82,
+      "mean": 24.807317073170733,
+      "p10": 23.91,
+      "p50": 24.9,
+      "p90": 25.4,
+      "buckets": [
+        {
+          "label": "16°C or below",
+          "lo": null,
+          "hi": 16,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.0
+        },
+        {
+          "label": "17°C",
+          "lo": 17,
+          "hi": 17,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.0
+        },
+        {
+          "label": "18°C",
+          "lo": 18,
+          "hi": 18,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 1.4839078475477701e-15
+        },
+        {
+          "label": "19°C",
+          "lo": 19,
+          "hi": 19,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 1.0235729946555134e-10
+        },
+        {
+          "label": "20°C",
+          "lo": 20,
+          "hi": 20,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 4.972640328102301e-07
+        },
+        {
+          "label": "21°C",
+          "lo": 21,
+          "hi": 21,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.00019004727670783562
+        },
+        {
+          "label": "22°C",
+          "lo": 22,
+          "hi": 22,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.007665169545332955
+        },
+        {
+          "label": "23°C",
+          "lo": 23,
+          "hi": 23,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.06596542935588937
+        },
+        {
+          "label": "24°C",
+          "lo": 24,
+          "hi": 24,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.2632885599475407
+        },
+        {
+          "label": "25°C",
+          "lo": 25,
+          "hi": 25,
+          "mid": 0.9995,
+          "best_bid": 0.999,
+          "best_ask": null,
+          "p": 0.45288724744873576
+        },
+        {
+          "label": "26°C or higher",
+          "lo": 26,
+          "hi": null,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.2100030490594018
+        }
+      ]
+    },
+    {
+      "snapshot_at": "2026-09-22T22:21:59.794348Z",
+      "market": "london",
+      "market_name": "倫敦 LCY",
+      "target_date": "2026-09-23",
+      "tz": "Europe/London",
+      "unit": "C",
+      "bias": 0.0,
+      "n_members": 82,
+      "mean": 23.378048780487806,
+      "p10": 22.5,
+      "p50": 23.4,
+      "p90": 24.2,
+      "buckets": [
+        {
+          "label": "18°C or below",
+          "lo": null,
+          "hi": 18,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 1.245629412624313e-10
+        },
+        {
+          "label": "19°C",
+          "lo": 19,
+          "hi": 19,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 6.281789062067298e-07
+        },
+        {
+          "label": "20°C",
+          "lo": 20,
+          "hi": 20,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.0002751438262888511
+        },
+        {
+          "label": "21°C",
+          "lo": 21,
+          "hi": 21,
+          "mid": 0.0055,
+          "best_bid": 0.002,
+          "best_ask": 0.009,
+          "p": 0.015508110532210486
+        },
+        {
+          "label": "22°C",
+          "lo": 22,
+          "hi": 22,
+          "mid": 0.035,
+          "best_bid": 0.02,
+          "best_ask": 0.05,
+          "p": 0.15702119226927133
+        },
+        {
+          "label": "23°C",
+          "lo": 23,
+          "hi": 23,
+          "mid": 0.245,
+          "best_bid": 0.17,
+          "best_ask": 0.2,
+          "p": 0.3799649550441575
+        },
+        {
+          "label": "24°C",
+          "lo": 24,
+          "hi": 24,
+          "mid": 0.58,
+          "best_bid": 0.57,
+          "best_ask": 0.59,
+          "p": 0.33578964555530816
+        },
+        {
+          "label": "25°C",
+          "lo": 25,
+          "hi": 25,
+          "mid": 0.165,
+          "best_bid": 0.17,
+          "best_ask": 0.19,
+          "p": 0.10328408181689284
+        },
+        {
+          "label": "26°C",
+          "lo": 26,
+          "hi": 26,
+          "mid": 0.0075,
+          "best_bid": 0.006,
+          "best_ask": 0.01,
+          "p": 0.008047604801319153
+        },
+        {
+          "label": "27°C",
+          "lo": 27,
+          "hi": 27,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 0.00010848114969934544
+        },
+        {
+          "label": "28°C or higher",
+          "lo": 28,
+          "hi": null,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 1.5670138282628043e-07
+        }
+      ]
+    },
+    {
+      "snapshot_at": "2026-09-22T22:21:59.794348Z",
+      "market": "london",
+      "market_name": "倫敦 LCY",
+      "target_date": "2026-09-24",
+      "tz": "Europe/London",
+      "unit": "C",
+      "bias": 0.0,
+      "n_members": 82,
+      "mean": 21.784146341463416,
+      "p10": 20.4,
+      "p50": 21.8,
+      "p90": 23.189999999999998,
+      "buckets": [
+        {
+          "label": "16°C or below",
+          "lo": null,
+          "hi": 16,
+          "mid": 0.0015,
+          "best_bid": 0.001,
+          "best_ask": 0.002,
+          "p": 5.212935862108372e-10
+        },
+        {
+          "label": "17°C",
+          "lo": 17,
+          "hi": 17,
+          "mid": 0.01,
+          "best_bid": null,
+          "best_ask": 0.02,
+          "p": 2.1457968086571406e-06
+        },
+        {
+          "label": "18°C",
+          "lo": 18,
+          "hi": 18,
+          "mid": 0.01,
+          "best_bid": null,
+          "best_ask": 0.02,
+          "p": 0.000696045832751412
+        },
+        {
+          "label": "19°C",
+          "lo": 19,
+          "hi": 19,
+          "mid": 0.015,
+          "best_bid": 0.01,
+          "best_ask": 0.02,
+          "p": 0.0225622920692234
+        },
+        {
+          "label": "20°C",
+          "lo": 20,
+          "hi": 20,
+          "mid": 0.04,
+          "best_bid": 0.03,
+          "best_ask": 0.05,
+          "p": 0.12270163345151627
+        },
+        {
+          "label": "21°C",
+          "lo": 21,
+          "hi": 21,
+          "mid": 0.145,
+          "best_bid": 0.14,
+          "best_ask": 0.15,
+          "p": 0.26546836329140605
+        },
+        {
+          "label": "22°C",
+          "lo": 22,
+          "hi": 22,
+          "mid": 0.425,
+          "best_bid": 0.41,
+          "best_ask": 0.44,
+          "p": 0.31620956522824223
+        },
+        {
+          "label": "23°C",
+          "lo": 23,
+          "hi": 23,
+          "mid": 0.33,
+          "best_bid": 0.32,
+          "best_ask": 0.34,
+          "p": 0.19207602238845464
+        },
+        {
+          "label": "24°C",
+          "lo": 24,
+          "hi": 24,
+          "mid": 0.05,
+          "best_bid": 0.05,
+          "best_ask": 0.09,
+          "p": 0.06794397242367473
+        },
+        {
+          "label": "25°C",
+          "lo": 25,
+          "hi": 25,
+          "mid": 0.007,
+          "best_bid": 0.005,
+          "best_ask": 0.009,
+          "p": 0.011882417238914948
+        },
+        {
+          "label": "26°C or higher",
+          "lo": 26,
+          "hi": null,
+          "mid": 0.0015,
+          "best_bid": 0.001,
+          "best_ask": 0.002,
+          "p": 0.0004575417577137633
+        }
+      ]
+    },
+    {
+      "snapshot_at": "2026-09-22T22:21:59.794348Z",
+      "market": "hong-kong",
+      "market_name": "香港 天文台",
+      "target_date": "2026-09-23",
+      "tz": "Asia/Hong_Kong",
+      "unit": "C",
+      "bias": -1.2925000000000002,
+      "n_members": 82,
+      "mean": 30.82420731707317,
+      "p10": 30.392500000000002,
+      "p50": 30.892500000000002,
+      "p90": 31.2925,
+      "buckets": [
+        {
+          "label": "24°C or below",
+          "lo": null,
+          "hi": 24,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 2.7078610356711136e-18
+        },
+        {
+          "label": "25°C",
+          "lo": 25,
+          "hi": 25,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 9.471691723622204e-13
+        },
+        {
+          "label": "26°C",
+          "lo": 26,
+          "hi": 26,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 1.99402412088931e-08
+        },
+        {
+          "label": "27°C",
+          "lo": 27,
+          "hi": 27,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 3.309232956443348e-05
+        },
+        {
+          "label": "28°C",
+          "lo": 28,
+          "hi": 28,
+          "mid": 0.02,
+          "best_bid": 0.01,
+          "best_ask": 0.03,
+          "p": 0.005347620687561587
+        },
+        {
+          "label": "29°C",
+          "lo": 29,
+          "hi": 29,
+          "mid": 0.08,
+          "best_bid": 0.08,
+          "best_ask": 0.1,
+          "p": 0.11820232986291247
+        },
+        {
+          "label": "30°C",
+          "lo": 30,
+          "hi": 30,
+          "mid": 0.275,
+          "best_bid": 0.25,
+          "best_ask": 0.3,
+          "p": 0.4709838691430099
+        },
+        {
+          "label": "31°C",
+          "lo": 31,
+          "hi": 31,
+          "mid": 0.425,
+          "best_bid": 0.41,
+          "best_ask": 0.42,
+          "p": 0.35845202511907553
+        },
+        {
+          "label": "32°C",
+          "lo": 32,
+          "hi": 32,
+          "mid": 0.21,
+          "best_bid": 0.2,
+          "best_ask": 0.22,
+          "p": 0.046192245721202604
+        },
+        {
+          "label": "33°C",
+          "lo": 33,
+          "hi": 33,
+          "mid": 0.02,
+          "best_bid": 0.01,
+          "best_ask": 0.03,
+          "p": 0.000787428130844076
+        },
+        {
+          "label": "34°C or higher",
+          "lo": 34,
+          "hi": null,
+          "mid": 0.0015,
+          "best_bid": 0.001,
+          "best_ask": 0.002,
+          "p": 1.3690646411965766e-06
+        }
+      ]
+    },
+    {
+      "snapshot_at": "2026-09-22T22:21:59.794348Z",
+      "market": "hong-kong",
+      "market_name": "香港 天文台",
+      "target_date": "2026-09-24",
+      "tz": "Asia/Hong_Kong",
+      "unit": "C",
+      "bias": -1.2925000000000002,
+      "n_members": 82,
+      "mean": 30.716890243902437,
+      "p10": 30.2925,
+      "p50": 30.6925,
+      "p90": 31.0925,
+      "buckets": [
+        {
+          "label": "25°C or below",
+          "lo": null,
+          "hi": 25,
+          "mid": 0.0015,
+          "best_bid": null,
+          "best_ask": 0.003,
+          "p": 5.140806479695717e-13
+        },
+        {
+          "label": "26°C",
+          "lo": 26,
+          "hi": 26,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 1.4013686272382807e-08
+        },
+        {
+          "label": "27°C",
+          "lo": 27,
+          "hi": 27,
+          "mid": 0.02,
+          "best_bid": null,
+          "best_ask": 0.04,
+          "p": 3.0498804465856474e-05
+        },
+        {
+          "label": "28°C",
+          "lo": 28,
+          "hi": 28,
+          "mid": 0.02,
+          "best_bid": null,
+          "best_ask": 0.04,
+          "p": 0.006168322254825611
+        },
+        {
+          "label": "29°C",
+          "lo": 29,
+          "hi": 29,
+          "mid": 0.04,
+          "best_bid": 0.03,
+          "best_ask": 0.05,
+          "p": 0.14478267852475168
+        },
+        {
+          "label": "30°C",
+          "lo": 30,
+          "hi": 30,
+          "mid": 0.25,
+          "best_bid": 0.23,
+          "best_ask": 0.27,
+          "p": 0.5077766620813288
+        },
+        {
+          "label": "31°C",
+          "lo": 31,
+          "hi": 31,
+          "mid": 0.33,
+          "best_bid": 0.31,
+          "best_ask": 0.35,
+          "p": 0.30887798580934495
+        },
+        {
+          "label": "32°C",
+          "lo": 32,
+          "hi": 32,
+          "mid": 0.3,
+          "best_bid": 0.29,
+          "best_ask": 0.31,
+          "p": 0.03187778369611844
+        },
+        {
+          "label": "33°C",
+          "lo": 33,
+          "hi": 33,
+          "mid": 0.095,
+          "best_bid": 0.09,
+          "best_ask": 0.1,
+          "p": 0.0004851837766068034
+        },
+        {
+          "label": "34°C",
+          "lo": 34,
+          "hi": 34,
+          "mid": 0.015,
+          "best_bid": 0.01,
+          "best_ask": 0.02,
+          "p": 8.70895210456953e-07
+        },
+        {
+          "label": "35°C or higher",
+          "lo": 35,
+          "hi": null,
+          "mid": 0.0005,
+          "best_bid": null,
+          "best_ask": 0.001,
+          "p": 1.431474058529806e-10
+        }
+      ]
+    }
+  ],
+  "pending": [],
+  "errors": [
+    {
+      "market": "london",
+      "stage": "bias",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLC&data=tmpc&year1=2026&month1=7&day1=24&year2=2026&month2=9&day2=22&tz=Europe%2FLondon&format=onlycomma&latlon=no&missing=M&trace=T&report_type=3&report_type=4"
+    }
+  ]
+}
