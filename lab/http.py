@@ -25,7 +25,10 @@ class HttpClient:
             except requests.RequestException as exc:
                 last_error = exc
                 if attempt < 2:
-                    time.sleep(1 + attempt)
+                    # IEM 對連續請求會回 429/503,要等久一點才重試
+                    status = getattr(exc.response, "status_code", None)
+                    time.sleep((10, 30)[attempt] if status in (429, 503)
+                               else 1 + attempt)
         assert last_error is not None
         raise last_error
 
