@@ -2,5 +2,7 @@
   "min_edge": 0.08,
   "min_ask": 0.1,
   "max_ask": 0.85,
-  "stake": 10
+  "stake": 10,
+  "bias_window_days": 10,
+  "bias_min_days": 7
 }

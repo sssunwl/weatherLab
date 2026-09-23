@@ -227,7 +227,10 @@ def execute(now: datetime, notify: bool = False, client: HttpClient | None = Non
     if stale:
         for config in stale:
             try:
-                biases[config["key"]] = calculate_bias(client, config, now)
+                biases[config["key"]] = calculate_bias(
+                    client, config, now,
+                    window=int(strategy.get("bias_window_days", 10)),
+                    min_days=int(strategy.get("bias_min_days", 7)))
             except Exception as exc:
                 _error(errors, config["key"], "bias", exc)
                 biases.setdefault(config["key"], {

@@ -68,7 +68,7 @@ def build_discord_message(now: datetime, configs: list[dict], newly_settled: lis
 
     for config in configs:
         item = biases.get(config["key"], {})
-        if item.get("n", 0) < 20:
+        if item.get("n", 0) < 7:
             lines.append(f"⚠️ {config['name']} 偏差樣本不足")
     lines.extend(f"⚠️ {warning}" for warning in warnings)
     failed = sorted({item["market"] for item in errors})
