@@ -16,5 +16,23 @@
     "brier": null,
     "market_brier": null,
     "settled_at": "2026-09-23T03:40:24.816414Z"
+  },
+  {
+    "market": "nyc",
+    "target_date": "2026-09-22",
+    "obs_raw": 69.0,
+    "obs_value": 69,
+    "our_bucket": "68-69°F",
+    "market_bucket": "68-69°F",
+    "eval_snapshot_at": null,
+    "probs": {},
+    "market_mids": {},
+    "p_of_actual": null,
+    "top_bucket": null,
+    "top_p": null,
+    "hit": null,
+    "brier": null,
+    "market_brier": null,
+    "settled_at": "2026-09-23T15:46:48.107865Z"
   }
 ]
