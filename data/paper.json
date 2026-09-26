@@ -159,5 +159,31 @@
     "placed_at": "2026-09-26T03:54:06.931129Z",
     "status": "open",
     "pnl": null
+  },
+  {
+    "id": "dc8955e400c67abd",
+    "market": "london",
+    "target_date": "2026-09-27",
+    "bucket": "24°C",
+    "p": 0.1918055126952428,
+    "best_ask": 0.1,
+    "edge": 0.09180551269524279,
+    "shares": 100.0,
+    "placed_at": "2026-09-26T15:22:18.531688Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "fe9517e101fba9b1",
+    "market": "hong-kong",
+    "target_date": "2026-09-28",
+    "bucket": "34°C",
+    "p": 0.2298536486291934,
+    "best_ask": 0.11,
+    "edge": 0.11985364862919341,
+    "shares": 90.9090909090909,
+    "placed_at": "2026-09-26T15:22:18.531688Z",
+    "status": "open",
+    "pnl": null
   }
 ]
