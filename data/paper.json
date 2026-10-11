@@ -596,8 +596,9 @@
     "edge": 0.1327231263343028,
     "shares": 100.0,
     "placed_at": "2026-10-08T18:10:05.807995Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-10-11T04:27:04.740586Z"
   },
   {
     "id": "8de95e1352f6b6db",
