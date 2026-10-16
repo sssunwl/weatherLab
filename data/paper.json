@@ -792,5 +792,18 @@
     "placed_at": "2026-10-16T03:28:22.785164Z",
     "status": "open",
     "pnl": null
+  },
+  {
+    "id": "7fac30aa5c4c3ca8",
+    "market": "hong-kong",
+    "target_date": "2026-10-17",
+    "bucket": "31°C",
+    "p": 0.24888760251231945,
+    "best_ask": 0.11,
+    "edge": 0.13888760251231946,
+    "shares": 90.9090909090909,
+    "placed_at": "2026-10-16T15:46:36.240150Z",
+    "status": "open",
+    "pnl": null
   }
 ]
