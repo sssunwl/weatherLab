@@ -886,5 +886,18 @@
     "placed_at": "2026-10-18T15:06:01.064165Z",
     "status": "open",
     "pnl": null
+  },
+  {
+    "id": "c89a6c134737b084",
+    "market": "nyc",
+    "target_date": "2026-10-19",
+    "bucket": "62-63°F",
+    "p": 0.45060382992211195,
+    "best_ask": 0.32,
+    "edge": 0.13060382992211195,
+    "shares": 31.25,
+    "placed_at": "2026-10-19T03:34:57.484849Z",
+    "status": "open",
+    "pnl": null
   }
 ]
