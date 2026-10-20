@@ -849,8 +849,9 @@
     "edge": 0.15630293913702606,
     "shares": 100.0,
     "placed_at": "2026-10-18T03:23:33.171489Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-10-20T16:01:38.413650Z"
   },
   {
     "id": "5d2f44c20a5b816e",
@@ -902,8 +903,9 @@
     "edge": 0.13060382992211195,
     "shares": 31.25,
     "placed_at": "2026-10-19T03:34:57.484849Z",
-    "status": "open",
-    "pnl": null
+    "status": "won",
+    "pnl": 21.25,
+    "settled_at": "2026-10-20T16:01:38.413650Z"
   },
   {
     "id": "8ccce50de3016b00",
@@ -941,6 +943,58 @@
     "edge": 0.28726754161199375,
     "shares": 66.66666666666667,
     "placed_at": "2026-10-20T03:45:50.936953Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "b8e98dc78b21c0a8",
+    "market": "nyc",
+    "target_date": "2026-10-21",
+    "bucket": "60-61°F",
+    "p": 0.4392841501875718,
+    "best_ask": 0.14,
+    "edge": 0.29928415018757176,
+    "shares": 71.42857142857142,
+    "placed_at": "2026-10-20T16:01:38.413650Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "59e5a27d4f890f99",
+    "market": "nyc",
+    "target_date": "2026-10-22",
+    "bucket": "64-65°F",
+    "p": 0.37925465676057285,
+    "best_ask": 0.1,
+    "edge": 0.2792546567605728,
+    "shares": 100.0,
+    "placed_at": "2026-10-20T16:01:38.413650Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "9d690c64d8c13168",
+    "market": "london",
+    "target_date": "2026-10-22",
+    "bucket": "15°C",
+    "p": 0.4408958317996206,
+    "best_ask": 0.31,
+    "edge": 0.1308958317996206,
+    "shares": 32.25806451612903,
+    "placed_at": "2026-10-20T16:01:38.413650Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "a3f28caddd972ffb",
+    "market": "hong-kong",
+    "target_date": "2026-10-22",
+    "bucket": "32°C",
+    "p": 0.37620461045427717,
+    "best_ask": 0.2,
+    "edge": 0.17620461045427716,
+    "shares": 50.0,
+    "placed_at": "2026-10-20T16:01:38.413650Z",
     "status": "open",
     "pnl": null
   }
