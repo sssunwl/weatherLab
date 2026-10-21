@@ -863,8 +863,9 @@
     "edge": 0.26966583844433034,
     "shares": 62.5,
     "placed_at": "2026-10-18T15:06:01.064165Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-10-21T16:18:37.941991Z"
   },
   {
     "id": "20fb21022b41d297",
@@ -944,8 +945,9 @@
     "edge": 0.28726754161199375,
     "shares": 66.66666666666667,
     "placed_at": "2026-10-20T03:45:50.936953Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-10-21T16:18:37.941991Z"
   },
   {
     "id": "b8e98dc78b21c0a8",
@@ -1009,6 +1011,58 @@
     "edge": 0.3293268161305065,
     "shares": 100.0,
     "placed_at": "2026-10-21T03:36:51.289962Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "d3319a8a8a5e2a84",
+    "market": "nyc",
+    "target_date": "2026-10-23",
+    "bucket": "54-55°F",
+    "p": 0.254104410262357,
+    "best_ask": 0.14,
+    "edge": 0.11410441026235696,
+    "shares": 71.42857142857142,
+    "placed_at": "2026-10-21T16:18:37.941991Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "1197da4a997728a0",
+    "market": "nyc",
+    "target_date": "2026-10-23",
+    "bucket": "56-57°F",
+    "p": 0.39058882930107025,
+    "best_ask": 0.15,
+    "edge": 0.24058882930107026,
+    "shares": 66.66666666666667,
+    "placed_at": "2026-10-21T16:18:37.941991Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "4a85b9b2ba1254bf",
+    "market": "london",
+    "target_date": "2026-10-23",
+    "bucket": "13°C",
+    "p": 0.33386616965357147,
+    "best_ask": 0.24,
+    "edge": 0.09386616965357147,
+    "shares": 41.66666666666667,
+    "placed_at": "2026-10-21T16:18:37.941991Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "92d770e6fd28262b",
+    "market": "hong-kong",
+    "target_date": "2026-10-23",
+    "bucket": "33°C",
+    "p": 0.21800039786334002,
+    "best_ask": 0.1,
+    "edge": 0.11800039786334002,
+    "shares": 100.0,
+    "placed_at": "2026-10-21T16:18:37.941991Z",
     "status": "open",
     "pnl": null
   }
