@@ -1281,5 +1281,31 @@
     "placed_at": "2026-10-28T17:38:53.432530Z",
     "status": "open",
     "pnl": null
+  },
+  {
+    "id": "285915d9ac766fb8",
+    "market": "nyc",
+    "target_date": "2026-10-31",
+    "bucket": "56-57°F",
+    "p": 0.39972257309858517,
+    "best_ask": 0.29,
+    "edge": 0.10972257309858519,
+    "shares": 34.48275862068966,
+    "placed_at": "2026-10-29T17:46:51.082106Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "2c6cefc44afe6189",
+    "market": "hong-kong",
+    "target_date": "2026-10-31",
+    "bucket": "28°C",
+    "p": 0.46771749192517165,
+    "best_ask": 0.37,
+    "edge": 0.09771749192517165,
+    "shares": 27.027027027027028,
+    "placed_at": "2026-10-29T17:46:51.082106Z",
+    "status": "open",
+    "pnl": null
   }
 ]
