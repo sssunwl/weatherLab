@@ -1364,5 +1364,18 @@
     "placed_at": "2026-10-31T16:31:07.570062Z",
     "status": "open",
     "pnl": null
+  },
+  {
+    "id": "3b252b258171175f",
+    "market": "london",
+    "target_date": "2026-11-02",
+    "bucket": "14°C",
+    "p": 0.22627016931266578,
+    "best_ask": 0.137,
+    "edge": 0.08927016931266576,
+    "shares": 72.992700729927,
+    "placed_at": "2026-11-01T04:46:34.443160Z",
+    "status": "open",
+    "pnl": null
   }
 ]
