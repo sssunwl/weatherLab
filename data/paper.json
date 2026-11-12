@@ -1658,8 +1658,9 @@
     "edge": 0.1640286519757019,
     "shares": 43.47826086956522,
     "placed_at": "2026-11-10T19:03:20.941110Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-11-12T06:02:43.444249Z"
   },
   {
     "id": "0ec4cbbc627d1a87",
@@ -1697,6 +1698,19 @@
     "edge": 0.2752801103814908,
     "shares": 62.5,
     "placed_at": "2026-11-11T18:59:48.441691Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "9f55ba2cb3096ecd",
+    "market": "hong-kong",
+    "target_date": "2026-11-13",
+    "bucket": "25°C",
+    "p": 0.2665493059072932,
+    "best_ask": 0.17,
+    "edge": 0.09654930590729319,
+    "shares": 58.8235294117647,
+    "placed_at": "2026-11-12T06:02:43.444249Z",
     "status": "open",
     "pnl": null
   }
