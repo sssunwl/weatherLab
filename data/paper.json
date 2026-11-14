@@ -1730,8 +1730,9 @@
     "edge": 0.22179370601517137,
     "shares": 100.0,
     "placed_at": "2026-11-12T19:18:42.366237Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-11-14T17:28:10.997461Z"
   },
   {
     "id": "0f08d19c5aa0098c",
@@ -1808,6 +1809,32 @@
     "edge": 0.21422092310786825,
     "shares": 66.66666666666667,
     "placed_at": "2026-11-13T18:56:17.415569Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "acd6b11cfecd3489",
+    "market": "london",
+    "target_date": "2026-11-16",
+    "bucket": "7°C",
+    "p": 0.2722533751161669,
+    "best_ask": 0.15,
+    "edge": 0.12225337511616688,
+    "shares": 66.66666666666667,
+    "placed_at": "2026-11-14T17:28:10.997461Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "6a598ccf152b3cfc",
+    "market": "hong-kong",
+    "target_date": "2026-11-16",
+    "bucket": "25°C",
+    "p": 0.39356467308476595,
+    "best_ask": 0.101,
+    "edge": 0.29256467308476597,
+    "shares": 99.009900990099,
+    "placed_at": "2026-11-14T17:28:10.997461Z",
     "status": "open",
     "pnl": null
   }
