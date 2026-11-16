@@ -1787,8 +1787,9 @@
     "edge": 0.12525696561475302,
     "shares": 22.727272727272727,
     "placed_at": "2026-11-13T18:56:17.415569Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-11-16T21:25:38.221840Z"
   },
   {
     "id": "9f57a6f76d943217",
@@ -1867,6 +1868,71 @@
     "edge": 0.21410468689423423,
     "shares": 50.0,
     "placed_at": "2026-11-15T18:13:12.800662Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "fadac1d8270d0c48",
+    "market": "nyc",
+    "target_date": "2026-11-17",
+    "bucket": "56-57°F",
+    "p": 0.4593988133806118,
+    "best_ask": 0.2,
+    "edge": 0.25939881338061177,
+    "shares": 50.0,
+    "placed_at": "2026-11-16T21:25:38.221840Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "da40a7eaa0b9a362",
+    "market": "nyc",
+    "target_date": "2026-11-18",
+    "bucket": "60-61°F",
+    "p": 0.35993985238758924,
+    "best_ask": 0.138,
+    "edge": 0.22193985238758923,
+    "shares": 72.46376811594202,
+    "placed_at": "2026-11-16T21:25:38.221840Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "2be8deb1ed353b8f",
+    "market": "london",
+    "target_date": "2026-11-17",
+    "bucket": "13°C",
+    "p": 0.45684623209321423,
+    "best_ask": 0.21,
+    "edge": 0.24684623209321424,
+    "shares": 47.61904761904762,
+    "placed_at": "2026-11-16T21:25:38.221840Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "cd8dbbc79d9a5507",
+    "market": "london",
+    "target_date": "2026-11-18",
+    "bucket": "12°C",
+    "p": 0.3764217817908403,
+    "best_ask": 0.12,
+    "edge": 0.2564217817908403,
+    "shares": 83.33333333333334,
+    "placed_at": "2026-11-16T21:25:38.221840Z",
+    "status": "open",
+    "pnl": null
+  },
+  {
+    "id": "7f714e55f633d64e",
+    "market": "hong-kong",
+    "target_date": "2026-11-18",
+    "bucket": "26°C",
+    "p": 0.31128291253320445,
+    "best_ask": 0.23,
+    "edge": 0.08128291253320444,
+    "shares": 43.47826086956522,
+    "placed_at": "2026-11-16T21:25:38.221840Z",
     "status": "open",
     "pnl": null
   }
