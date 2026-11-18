@@ -1870,8 +1870,9 @@
     "edge": 0.21410468689423423,
     "shares": 50.0,
     "placed_at": "2026-11-15T18:13:12.800662Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-11-18T06:15:04.852168Z"
   },
   {
     "id": "fadac1d8270d0c48",
@@ -1909,8 +1910,9 @@
     "edge": 0.24684623209321424,
     "shares": 47.61904761904762,
     "placed_at": "2026-11-16T21:25:38.221840Z",
-    "status": "open",
-    "pnl": null
+    "status": "lost",
+    "pnl": -10.0,
+    "settled_at": "2026-11-18T06:15:04.852168Z"
   },
   {
     "id": "cd8dbbc79d9a5507",
