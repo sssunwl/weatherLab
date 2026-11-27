@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T07:04:17.617120Z",
+  "generated_at": "2026-11-27T20:28:19.128889Z",
   "markets": {
     "nyc": {
       "hits": 1,
@@ -27,7 +27,7 @@
     "market_brier": 0.5333339128171731
   },
   "paper": {
-    "trades": 168,
+    "trades": 170,
     "resolved": 160,
     "wins": 15,
     "win_rate": 0.09375,
